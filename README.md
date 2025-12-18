@@ -18,7 +18,7 @@ uruchomimy tryb ultimate w ktorym odgadniecie liczby
 nie jest juz takie latwe
 
 2 top 5
-ktora uruchamiamy wpisujac top lub l
+ktora uruchamiamy wpisujac top lub t
 po czym pokazuje nam sie menu poziomow trudnosci
 latwy sredni trudny i custom
 
