@@ -28,5 +28,4 @@ ktora uruchamiamy wpisujac wyjscie lub w
 ale mamy tez opcje ukryte typu
 napoj
 misiu
-2137 ktore w sumie nie powinno tam byc dlatego 
-nic sie tam nie powinno wydarzyc
+2137 ktore w sumie nie powinno tam byc dlatego nic sie tam nie powinno wydarzyc
