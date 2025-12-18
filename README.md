@@ -25,7 +25,7 @@ latwy sredni trudny i custom
 3 wyjscie 
 ktora uruchamiamy wpisujac wyjscie lub w 
 
-ale mamy tez opcje ukryte typu
-napoj
-misiu
-2137 ktore w sumie nie powinno tam byc dlatego nic sie tam nie powinno wydarzyc
+ale mamy tez opcje ukryte typu 
+napoj, 
+misiu, 
+2137  (ktore w sumie nie powinno tam byc dlatego nic sie tam nie powinno wydarzyc),  
