@@ -31,7 +31,22 @@ std::string lin;//zeby czytalo po całej linijce
 std::string nick;
 std::string f;// nick gracza
 std::string b;//zmienna do poziomu trud
-std::string start = "					Witaj Drogi Uzytkowniku \n				Oto jakze wymagajaca gra Zgadnij Liczbe"; //jakiś ekranik startowy
+std::string start = 
+R"(             ##    ##  ##  ########   ###   #######      ####    ####    ####    ####  ##                             
+             ## ## ##         ##     ## ##       ##      ##  ##  ##  #  ##  ##  ##                                    
+             ########  ##     ##    #######      ##      ##  ##  ####   ##  ##  ##  ## ##                             
+             ###  ###  ##     ##    ##   ## ##   ##      ##  ##  ##  #  ##  ##  ##   # ##            
+             ##    ##  ##     ##    ##   ##   ####       ####    ##   #  ####    ####  ##                             
+		
+   ##    ##     #     ##    ##  ########  ##  ##   ####   ##    ##  ##    ##  ##  ##  ## ##    ##  
+   ##    ##  #######   ##  ##      ##     ## ##   ##  ##  ##    ##  ###   ##      ## ##  ##    ##
+   ##    ##       #     ####       ##     ###     ##  ##  ## ## ##  ## ## ##  ##  ###    ##    ##   
+   ##    ##     ##       ##        ##     ## ##   ##  ##  ########  ##   ###  ##  ## ##  ##    ##                     
+     ####    #######     ##        ##     ##  ##   ####   ##    ##  ##    ##  ##  ##  ##   ####    
+
+				Oto jakze wymagajaca gra Zgadnij Liczbe
+
+)"; //jakiś ekranik startowy
 std::string odpTekst(std::string pytanie) // funkcja pyt o tekst
 {
 	std::string odpowiedz;
