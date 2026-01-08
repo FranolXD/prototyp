@@ -160,6 +160,7 @@ int main()
 		else {
 			std::cout << "\n\n					Ponizej sa dostepne opjce\n\n			[graj]			[top 5]			[wyjscie]\n\n";
 		}
+		plik.close();
 		std::string wybor = odpTekst("\n			  		  Wpisz swoj wybor: "); //co dalej?
 		
 		if (wybor == "graj" || wybor == "play" || wybor == "p" || wybor == "g") {
