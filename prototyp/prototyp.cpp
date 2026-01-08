@@ -31,7 +31,7 @@ std::string lin;//zeby czytalo po całej linijce
 std::string nick;
 std::string f;// nick gracza
 std::string b;//zmienna do poziomu trud
-std::string start = 
+std::string start =
 R"(             ##    ##  ##  ########   ###   #######      ####    ####    ####    ####  ##                             
              ## ## ##         ##     ## ##       ##      ##  ##  ##  #  ##  ##  ##                                    
              ########  ##     ##    #######      ##      ##  ##  ####   ##  ##  ##  ## ##                             
@@ -163,7 +163,7 @@ int main()
 			plik.close();
 		}
 		std::string wybor = odpTekst("\n			  		  Wpisz swoj wybor: "); //co dalej?
-		
+
 		if (wybor == "graj" || wybor == "play" || wybor == "p" || wybor == "g") {
 			/*char zak = odpchar("\n	Psst \nMoze jakis zakladzik :3 ?\n			[ t / n ]");//bo switch daiala tylko z intem i charem
 			switch (zak)
@@ -334,7 +334,7 @@ int main()
 				}
 				else {
 					std::cout << "\n				nie ma takiego poziomu mordeczko	'o' \n\n";
-					
+
 				}
 				a = 0;//resetowanie zeby przy ponownym wyswietleniu topki dzialalo
 				system("cls");
@@ -388,6 +388,7 @@ int main()
 
 		else {
 			std::cout << "\n				Czlowieku zastanow sie, badz soba, LUDZIU!\n";
+			Sleep(500);
 			system("cls");
 		}
 	}
