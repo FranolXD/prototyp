@@ -138,7 +138,13 @@ int main()
 {
 	std::cout << start;
 	for (i = 1; i <= 1;) { //tu będzie pętla 
-		std::cout << "\n\n					Ponizej sa dostepne opjce\n\n			[graj]			[top 5]			[wyjscie]\n\n";
+		plik.open("top5GraczyLatwy.txt", std::ios::in);
+		if (plik.good() == false) {
+			std::cout << "\n\n					Ponizej sa dostepne opjce\n\n			[graj]							[wyjscie]\n\n";
+		}
+		else {
+			std::cout << "\n\n					Ponizej sa dostepne opjce\n\n			[graj]			[top 5]			[wyjscie]\n\n";
+		}
 		std::string wybor = odpTekst("\n			  		  Wpisz swoj wybor: "); //co dalej?
 		
 		if (wybor == "graj" || wybor == "play" || wybor == "p" || wybor == "g") {
