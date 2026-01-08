@@ -8,11 +8,8 @@
 #include <stdlib.h>//dla exit
 #include <cctype>
 #include <climits>//dla INT_MAX
-#include <windows.h>//do czekania ----dalej nie chce działać----
+#include <windows.h>//do czekania ----dalej nie chce działać----//wystarczylo napisac z duzej litery
 #include <time.h>//dla sleep
-
-
-//wystarczylo napisac z duzej litery
 
 char zak = 0;//zmienna do zakładu
 char odpchar(std::string pyt) {
